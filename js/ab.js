@@ -16,7 +16,7 @@ else {
   document.writeln("The sum of " + a + " is " + sum);
 }
 */
-
+/*
 let n = Number(prompt("nhap so vao hop thoai "));
 let sum = 0;
 while (n != -1) {
@@ -32,3 +32,15 @@ while (i <= 100) {
   document.writeln("<hr width= '" + i + "%'><br>");
   i++;
 }*/
+let sout = "<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+let hang = Number(1);
+let cot = Number(1);
+for (hang = 1; hang <= 10; hang++) {
+  sout += "<tr>";
+  for (cot = 1; cot <= 10; cot++) {
+    sout += "<td>" + hang * cot + "</td>";
+  }
+  sout += "</tr>";
+}
+sout += "</table>";
+document.writeln(sout);
