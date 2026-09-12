@@ -16,6 +16,7 @@ else {
   document.writeln("The sum of " + a + " is " + sum);
 }
 */
+/*
 let n = Number(prompt("nhap so vao hop thoai "));
 let sum = 0;
 while (n != -1) {
@@ -24,3 +25,9 @@ while (n != -1) {
   n = Number(prompt("nhap so vao hop thoai "));
 }
 document.writeln("tong cac so la" + sum);
+*/
+let i = 1;
+while (i <= 100) {
+  document.writeln("<hr width= '" + i + "%><br>");
+  i++;
+}
