@@ -26,9 +26,9 @@ while (n != -1) {
 }
 document.writeln("tong cac so la" + sum);
 
-
+/*
 let i = 1;
 while (i <= 100) {
   document.writeln("<hr width= '" + i + "%'><br>");
   i++;
-}
+}*/
